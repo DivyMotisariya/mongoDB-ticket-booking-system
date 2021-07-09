@@ -9,6 +9,22 @@ const {
 
 const showAllReports = (req, res) => {
   // showAllDocuments(res, "Flights Report", FlightReport);
+
+  // async-await
+  // (async() => {
+  //   let report = await FlightReport.find()
+  //     .populate("flightID")
+  //     .populate("routeID")
+  //     .populate({
+  //       path: "passengers",
+  //       populate: { path: "ticketID", populate: "routeID" },
+  //     })
+  //     .exec();
+  //   // console.log(report);
+  //   res.json(report);
+  // })();
+
+  // Promise-then-catch
   FlightReport.find()
     .populate("flightID")
     .populate("routeID")
