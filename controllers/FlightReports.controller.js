@@ -10,7 +10,7 @@ const {
 const showAllReports = (req, res) => {
   // showAllDocuments(res, "Flights Report", FlightReport);
 
-  // async-await
+  // With async-await
   // (async() => {
   //   let report = await FlightReport.find()
   //     .populate("flightID")
