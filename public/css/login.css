@@ -1,0 +1,26 @@
+body {
+  font-family: "Ubuntu";
+}
+
+.container {
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+a#google {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+a#facebook {
+  background-color: rgb(105, 105, 228);
+  color: white;
+}
